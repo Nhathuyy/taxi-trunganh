@@ -1,12 +1,14 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteName: 'Trung Anh',
+    siteUrl: 'taxidientrunganh.vn',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'Taxi điện Trung Anh – Dịch vụ đặt xe an toàn, nhanh chóng tại Đắk Lắk',
+        description: 'Taxi điện Trung Anh mang đến trải nghiệm đi lại an toàn, tiện lợi và thân thiện môi trường tại Đắk Lắk. Đặt xe nhanh chóng, tiết kiệm chi phí và luôn đúng giờ.'
+        
     },
-    language: 'en-us',
-    locale: 'en-US',
-    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // or use a string for the logo e.g. "TechStartup"
-    googleAnalyticsId: '', // e.g. G-XXXXXXX,
-}
+    language: 'vi',
+    locale: 'vi',
+    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`,
+    googleAnalyticsId: 'G-JM5L8BL6YY', // e.g. G-XXXXXXX
+  }
+  

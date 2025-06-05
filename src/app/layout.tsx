@@ -48,6 +48,7 @@ export default function RootLayout({
       >
         {siteDetails.googleAnalyticsId && <GoogleAnalytics gaId={siteDetails.googleAnalyticsId} />}
         <Header />
+        
         <main>
           {children}
         </main>

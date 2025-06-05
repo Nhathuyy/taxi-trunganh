@@ -3,23 +3,23 @@ import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: 'Làm thế nào để đặt xe trên ứng dụng?',
+        answer: 'Bạn chỉ cần chọn điểm đón và điểm đến, sau đó chọn loại xe phù hợp. Tài xế sẽ liên hệ ngay lập tức để đón bạn.',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: 'Tôi có thể đặt xe trước không?',
+        answer: 'Dĩ nhiên! Bạn có thể đặt xe trước tối đa 24 giờ để chủ động sắp xếp thời gian.',
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: 'Có tính phí chờ không?',
+        answer: 'Có, phí chờ được tính sau 5 phút đầu tiên với mức giá hợp lý. Tài xế sẽ thông báo cụ thể khi đón bạn.',
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: 'Tôi có thể chọn tài xế yêu thích không?',
+        answer: 'Hiện tại, chúng tôi chưa hỗ trợ tính năng chọn tài xế yêu thích, nhưng đội ngũ tài xế luôn được đào tạo chuyên nghiệp, thân thiện và lịch sự.',
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
+        question: 'Tôi nên làm gì nếu để quên đồ trên xe?',
+        answer: 'Hãy liên hệ ngay với tổng đài hỗ trợ hoặc ứng dụng. Chúng tôi sẽ hỗ trợ bạn kết nối với tài xế để nhận lại đồ.',
     }
 ];

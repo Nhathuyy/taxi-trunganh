@@ -1,6 +1,26 @@
 import { ITestimonial } from "@/types";
 import { siteDetails } from "./siteDetails";
 
+
+export const pricingTable: { description: string; price: string }[] = [
+    {
+        description: 'Giá mở cửa',
+        price: '10.000 đ / km',
+    },
+    {
+        description: 'Giá cước từ Km tiếp theo đến km 25',
+        price: '12.500 đ / km',
+    },
+    {
+        description: 'Giá cước từ Km 25 đến km 100',
+        price: '9.000 đ / km',
+    },
+    {
+        description: 'Giá cước từ Km 101 trở lên',
+        price: '8.000 đ / km',
+    },
+];
+
 export const testimonials: ITestimonial[] = [
     {
         name: 'John Smith',

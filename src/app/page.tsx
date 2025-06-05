@@ -8,6 +8,7 @@ import Container from "@/components/Container";
 import Section from "@/components/Section";
 import Stats from "@/components/Stats";
 import CTA from "@/components/CTA";
+import CardStack from "@/components/cardStack"; // Đường dẫn tuỳ vị trí bạn đặt file
 
 const HomePage: React.FC = () => {
   return (
@@ -16,19 +17,21 @@ const HomePage: React.FC = () => {
       <Logos />
       <Container>
         <Benefits />
+      <CardStack />
 
         <Section
           id="pricing"
-          title="Pricing"
-          description="Simple, transparent pricing. No surprises."
+          title="Dịch Vụ"
+          description="Những chiếc xe và dịch vụ tốt nhất ở chúng tôi"
         >
-          <Pricing />
+          
+        <Pricing />
         </Section>
 
         <Section
           id="testimonials"
-          title="What Our Clients Say"
-          description="Hear from those who have partnered with us."
+          title="Bảng giá Taxi EaSup - Đắk Lắk"
+          description="Loại xe taxi 4 chổ - 7 chổ"
         >
           <Testimonials />
         </Section>

@@ -1,6 +1,6 @@
 export const ctaDetails = {
-    heading: 'Join Over 1 Million Users To Transform Your Finances',
-    subheading: 'Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!',
+    heading: 'Đặt xe điện Easup Đắk Lắk – Nhanh chóng, An toàn, Tiện lợi',
+    subheading: 'Trải nghiệm dịch vụ taxi điện hiện đại và thân thiện môi trường tại Easup, Buôn Ma Thuột, Buôn Hồ và khu vực tỉnh Đắk Lắk. Đặt xe ngay hôm nay để có hành trình an toàn, tiết kiệm!',
     appStoreUrl: '#',
     googlePlayUrl: '#'
 }

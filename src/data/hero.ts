@@ -1,5 +1,5 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
+    heading: 'Dịch vụ taxi điện nhanh chóng, uy tín tại Buôn Ma Thuột',
+    subheading: 'Dịch vụ taxi điện Buôn Ma Thuột - Giá rẻ, nhanh chóng, tiện lợi, luôn sẵn sàng phục vụ bạn.',
     centerImageSrc: '/images/hero-mockup.webp',
 }

@@ -3,35 +3,27 @@ import { IMenuItem, ISocials } from "@/types";
 export const footerDetails: {
     subheading: string;
     quickLinks: IMenuItem[];
-    email: string;
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Mang đến dịch vụ taxi điện hiện đại, an toàn và tiện lợi tại Đắk Lắk.",
     quickLinks: [
         {
-            text: "Features",
-            url: "#features"
+            text: "Dịch vụ",
+            url: "#services"
         },
         {
-            text: "Pricing",
+            text: "Bảng giá",
             url: "#pricing"
         },
         {
-            text: "Testimonials",
-            url: "#testimonials"
+            text: "Hỏi đáp",
+            url: "#faqs"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    telephone: '0835.340.340',
     socials: {
-        // github: 'https://github.com',
-        // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
-        facebook: 'https://facebook.com',
-        // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
-        // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com',
+        facebook: 'https://www.facebook.com/taxidieneasup',
+      
     }
 }
