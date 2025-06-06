@@ -8,7 +8,7 @@ export const siteDetails = {
     },
     language: 'vi',
     locale: 'vi',
-    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`,
+    siteLogo: '/images/Trung_Anh_Tax.png',
     googleAnalyticsId: 'G-JM5L8BL6YY', // e.g. G-XXXXXXX
   }
   

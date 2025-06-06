@@ -1,5 +1,5 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign,FiMap,FiPhoneCall,FiSmile ,FiClock, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
-import React, { useEffect } from "react";
+import { FiBarChart2, FiDollarSign,FiMap,FiPhoneCall,FiSmile ,FiClock,  FiTarget,  FiUser } from "react-icons/fi";
+import React from "react";
 
 import { IBenefit } from "@/types"
 
@@ -67,29 +67,6 @@ export const benefits: IBenefit[] = [
             icon: <FiClock size={26} />
           }
         ],
-        imageSrc: "/images/mockup-2.webp"
-    },
-    {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
-        bullets: [
-            {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
-                icon: <FiLock size={26} />
-            },
-            {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
-                icon: <FiUser size={26} />
-            },
-            {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
-                icon: <FiShield size={26} />
-            }
-        ],
         imageSrc: "/images/sumenh-trunganh-taxi.jpg"
     },
-    
 ]

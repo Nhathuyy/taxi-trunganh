@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 
 import AppStoreButton from './AppStoreButton';
-import PlayStoreButton from './PlayStoreButton';
 
 import { heroDetails } from '@/data/hero';
 
@@ -25,7 +24,6 @@ const Hero: React.FC = () => {
                 <p className="mt-4 text-foreground max-w-lg mx-auto">{heroDetails.subheading}</p>
                 <div className="mt-6 flex flex-col sm:flex-row items-center sm:gap-4 w-fit mx-auto">
                     <AppStoreButton dark />
-                    <PlayStoreButton dark />
                 </div>
                 <Image
                     src={heroDetails.centerImageSrc}

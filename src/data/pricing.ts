@@ -2,14 +2,14 @@ import { IPricing } from "@/types";
 
 export const tiers: IPricing[] = [
     {
-        name: 'Taxi 4 chổ',
+        name: 'Taxi 4 chỗ',
         price: 29,
         features: [
             'Hành khách : 4',
             'Hành lý mang theo: 2',
             'Điều hòa : Có',
             ' Định vị GPS : Có',
-            'Cảnh báo camera và máy bắn tốc độ : Có',
+            'Cảnh báo camera, tốc độ : Có',
             'Tổng đài 24/7: Có',
             'Hỗ trợ tận tâm với trẻ em & người lớn tuổi',
             'Hỗ trợ hành lý',
@@ -18,14 +18,14 @@ export const tiers: IPricing[] = [
         ],
     },
     {
-        name: 'Taxi 7 chổ',
+        name: 'Taxi 7 chỗ',
         price: 99,
         features: [
             'Hành khách : 6',
             'Hành lý mang theo: 2',
             'Điều hòa : Có',
             'Định vị GPS : Có',
-            'Cảnh báo camera và máy bắn tốc độ : Có',
+            'Cảnh báo camera, tốc độ : Có',
             'Tổng đài 24/7: Có',
             'Hỗ trợ tận tâm với trẻ em & người lớn tuổi',
             'Hỗ trợ hành lý',
@@ -42,7 +42,7 @@ export const tiers: IPricing[] = [
             'Hành lý mang theo: 2',
             'Điều hòa : Có',
             'Định vị GPS : Có',
-            'Cảnh báo camera và máy bắn tốc độ : Có',
+            'Cảnh báo camera, tốc độ : Có',
             'Tổng đài 24/7: Có',
             'Hỗ trợ tận tâm với trẻ em & người lớn tuổi',
             'Hỗ trợ hành lý',

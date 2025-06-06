@@ -1,148 +1,133 @@
 body {
-    margin: 0;
-    font-family: sans-serif;
-    background: #ebebeb;
-    color: #dd0000;
-  }
-  
+  margin: 0;
+  font-family: sans-serif;
+  background: #ebebeb;
+  color: #dd0000;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  top: 20vh;
+  position: relative;
+  perspective: 1000px;
+  padding: 0 1rem;
+}
+
+.card {
+  position: sticky;
+  top: 50px;
+  height: 25vh;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(255, 230, 230, 0.5);
+  transition: transform 0.3s ease;
+  will-change: transform;
+  z-index: 1;
+  margin-bottom: 10px;
+}
+
+.card1 { background: #fffdfd; z-index: 1; transform: translateZ(0); }
+.card2 { background: #fffdfd; z-index: 2; transform: translateZ(40px); margin-top: 10px; }
+.card3 { background: #fffdfd; z-index: 3; transform: translateZ(100px); margin-top: 14px; }
+.card4 { background: #fffdfd; z-index: 4; transform: translateZ(140px); margin-top: 10px; }
+
+.fb-review-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+}
+
+.fb-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.fb-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 15px;
+}
+
+.fb-name {
+  font-weight: 700;
+  color: #385898;
+  margin-right: 4px;
+}
+
+.fb-company {
+  font-weight: 600;
+  color: #385898;
+  margin: 0 4px;
+}
+
+.fb-phone {
+  font-weight: 600;
+  color: #385898;
+}
+
+.fb-review-content {
+  line-height: 1.4;
+  font-size: 18px;
+  color: #101622;
+}
+
+.fb-link {
+  font-size: 16px;
+  font-weight: 500;
+
+  color: #0238a4;
+  text-decoration: none;
+}
+
+.text-card {
+  font-size: 17px;
+  color: rgb(67, 66, 66);
+}
+
+.fb-link-company {
+  font-weight: 800;
+  color: #385898;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
   .container {
-    width: 100%;
-    max-width: 700px;
-    margin: 0 auto;
-    top:20vh;
-    font-family: sans-serif;
-    position: relative;
-    perspective: 1000px; /* Tạo hiệu ứng 3D */
+    margin-top: 10vh;
+    width: 105%;
+    max-width: 105%;
+    padding: 0 1rem;
   }
-  
-  /* Card sticky & chồng lên */
   .card {
-    position: sticky;
-    top: 50px; /* Chỉnh vị trí cuộn dính */
-    height: 20vh; /* Chiều cao mỗi box */
-    border-radius: 20px;
-    padding: 40px;
-    box-shadow: 0 10px 30px rgba(255, 230, 230, 0.5);
-    transition: transform 0.3s ease;
-    will-change: transform;
-    z-index: 1;
-    margin-bottom: 10px; /* Khoảng cách giữa các box */
+    top: 10vh;
+    height: 16vh;
+    padding: 0.75rem;
   }
-  
-  /* Box 1: Xuất hiện đầu tiên */
-  .card1 {
-    background: #fffdfd;
-    z-index: 1;
-    transform: translateZ(0); /* Card đầu tiên không dịch chuyển */
-  }
-  
-  /* Box 2: Khi cuộn tới, đè lên Box 1 */
-  .card2 {
-    background: #fffdfd;
-    z-index: 2; /* Box 2 đè lên Box 1 */
-    transform: translateZ(40px); /* Box này dịch chuyển lên 20px */
-    margin-top: 10px;
-  }
-  
-  /* Box 3: Khi cuộn tới, đè lên Box 2 */
-  .card3 {
-    background: #f7f4f4;
-    z-index: 3; /* Box 3 đè lên Box 2 */
-    transform: translateZ(80px); /* Box này dịch chuyển lên 40px */
-    margin-top: 10px;
-    height: 25vh;
-  }
-  .card4 {
-    background: #f7f4f4;
-    z-index: 3; /* Box 3 đè lên Box 2 */
-    transform: translateZ(100px); /* Box này dịch chuyển lên 40px */
-    margin-top: 10px;
-   
-  }
-
-
-  .fb-review-row {
-    display: flex;
-    gap: 16px; /* khoảng cách giữa 2 box */
-    flex-wrap: wrap; /* tự động xuống dòng nếu màn hình nhỏ */
-  }
-  
-  .fb-review-box {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 16px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-    width: 300px; /* hoặc % tuỳ ý */
-    font-family: Arial, sans-serif;
-  }
-  
-  .fb-review-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 8px;
-  }
-  
   .fb-avatar {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    margin-right: 2px;
   }
-  
-  .fb-name {
-    color: #385898;
+  .fb-icon {
+    width: 10px;
   }
-  
-  .fb-date {
-    font-size: 12px;
-    color: #888;
-  }
-  
+  .fb-name,
+  .fb-link-company,
+  .text-card,
   .fb-review-content {
-    margin: 10px 0;
-    line-height: 1.4;
-    font-size:18px;
-    color: #101622;
+    font-size: 15px;
   }
-  
   .fb-link {
-    font-size: 14px;
-    color: #0238a4;
-    text-decoration: none;
+    font-size: 12px;
   }
-  
-  .fb-link-company {
-    color: #385898;
-    text-decoration: none;
+  .card2, .card3, .card4 {
+    transform: translateZ(40px);
   }
-  
-  .fb-review-header {
-    display: flex;
-    align-items: center; /* Canh giữa dọc cho toàn bộ dòng */
-    flex-wrap: nowrap;  /* Không cho phép xuống hàng */
-    gap: 6px;           /* Khoảng cách nhỏ giữa các phần tử */
-  }
-  
-  .fb-avatar {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-  }
-  .text-card{
-    font-size:17px ;
-    color:rgb(67, 66, 66);
-  }
-  .fb-name {
-
-    font-size:18px;
-    color: #385898;
-  }
-  
-  .fb-link-company {
-    font-weight: 800;
-    color: #385898;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  
+}
