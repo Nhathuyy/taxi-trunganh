@@ -54,9 +54,7 @@ const ScrollOverlapCards: React.FC = () => {
       className: "card1",
     },
     {
-      src: "https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/508470290_705152155554631_5193222140796049408_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=dBVkgsnUbNcQ7kNvwFUOllj&_nc_oc=AdniySi2LK4GWtWHfta2OIcOCpO8GeeTEKBmfATgeaS3Nsze26BXhcGoBnIoKFZ5hws&_nc_zt=23&_nc_ht=scontent.fsgn5-5.fna&_nc_gid=uC7t7LtJQHSICU5PMH6-BA&oh=00_AfQnO0bA9iSx_6cYDfYvmSChDgNYdseU_Ve0NYr4-QDBmQ&oe=686EEF94",
-      name: "Le Dinh Phu",
-      review: "recommend",
+       src: "https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/508470290_705152155554631_5193222140796049408_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=dBVkgsnUbNcQ7kNvwFUOllj&_nc_oc=AdniySi2LK4GWtWHfta2OIcOCpO8GeeTEKBmfATgeaS3Nsze26BXhcGoBnIoKFZ5hws&_nc_zt=23&_nc_ht=scontent.fsgn5-5.fna&_nc_gid=uC7t7LtJQHSICU5PMH6-BA&oh=00_AfQnO0bA9iSx_6cYDfYvmSChDgNYdseU_Ve0NYr4-QDBmQ&oe=686EEF94",
       content: "Giá rẻ, xe sạch sẽ, tài xế cẩn thận đẹp trai",
       className: "card2",
     },
