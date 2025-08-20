@@ -1,8 +1,8 @@
 export const siteDetails = {
     siteName: 'Trung Anh',
-    siteUrl: 'taxidientrunganh.vn',
+    siteUrl: 'taxidientrunganh.c',
     metadata: {
-        title: 'Taxi điện Trung Anh – Dịch vụ đặt xe an toàn, nhanh chóng tại Đắk Lắk',
+        title: 'Taxi điện easup Trung Anh – Dịch vụ đặt xe an toàn, nhanh chóng tại Đắk Lắk',
         description: 'Taxi điện Trung Anh mang đến trải nghiệm đi lại an toàn, tiện lợi và thân thiện môi trường tại Đắk Lắk. Đặt xe nhanh chóng, tiết kiệm chi phí và luôn đúng giờ.'
         
     },
