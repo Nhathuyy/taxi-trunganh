@@ -23,7 +23,7 @@ const Header: React.FC = () => {
                     <Link href="/" className="flex items-center gap-2">
                         <img src="/images/Trung_Anh_Tax.png" alt="Logo" className="w-12 h-12" /> 
                         <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
-                          TAXI TRUNG ANH
+                          TAXI ĐIỆN EASUP 
                         </span>
                     </Link>
 
