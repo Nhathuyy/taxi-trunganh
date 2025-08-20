@@ -11,7 +11,7 @@ const AppStoreButton = ({ dark }: { dark?: boolean }) => {
                     "flex items-center justify-center min-w-[205px] mt-3 px-6 h-14 rounded-full w-full sm:w-fit transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-md",
                     {
                         "text-white bg-foreground hover:bg-opacity-90": dark,
-                        "text-foreground bg-white hover:bg-gray-100": !dark
+                        "text-logo bg-white hover:bg-gray-100": !dark
                     }
                 )}
             >

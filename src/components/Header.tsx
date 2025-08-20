@@ -23,7 +23,7 @@ const Header: React.FC = () => {
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
                         <img src="/images/Trung_Anh_Tax.png" alt="Logo" className="w-12 h-12" /> 
-                        <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
+                        <span className="manrope text-xl font-semibold text-logo cursor-pointer">
                           TAXI ĐIỆN EASUP 
                         </span>
                     </Link>
@@ -32,14 +32,14 @@ const Header: React.FC = () => {
                     <ul className="hidden md:flex space-x-6">
                         {menuItems.map(item => (
                             <li key={item.text}>
-                                <Link href={item.url} className="text-foreground hover:text-foreground-accent transition-colors">
+                                <Link href={item.url} className="text-logo hover:text-foreground-accent transition-colors">
                                     {item.text}
                                 </Link>
                             </li>
                         ))}
                         <li>
                             <Link href="#cta" className="text-white bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors">
-                                BÁO GIÁ
+                                GỌI NGAY
                             </Link>
                         </li>
                     </ul>
@@ -78,7 +78,7 @@ const Header: React.FC = () => {
                     <ul className="flex flex-col space-y-4 pt-1 pb-6 px-6">
                         {menuItems.map(item => (
                             <li key={item.text}>
-                                <Link href={item.url} className="text-foreground hover:text-primary block" onClick={toggleMenu}>
+                                <Link href={item.url} className="text-logo hover:text-primary block" onClick={toggleMenu}>
                                     {item.text}
                                 </Link>
                             </li>
