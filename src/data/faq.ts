@@ -1,8 +1,12 @@
 import { IFAQ } from "@/types";
 export const faqs: IFAQ[] = [
     {
-        question: 'Làm thế nào để đặt xe trên ứng dụng?',
-        answer: 'Bạn chỉ cần chọn điểm đón và điểm đến, sau đó chọn loại xe phù hợp. Tài xế sẽ liên hệ ngay lập tức để đón bạn.',
+        question: 'Taxi Điện Easup có địa chỉ cụ thể ở đâu?',
+        answer: 'Taxi Điện Easup có địa chỉ tại: 3V45+26J, Cư M\'Lan, Ea Súp, Đắk Lắk, Việt Nam. Chúng tôi phục vụ toàn khu vực Ea Súp và các tuyến lân cận.',
+    },
+    {
+        question: 'Làm thế nào để đặt xe Taxi Điện Easup?',
+        answer: 'Bạn chỉ cần gọi số hotline 0835.340.340 hoặc chọn điểm đón và điểm đến, sau đó chọn loại xe phù hợp. Tài xế sẽ liên hệ ngay lập tức để đón bạn.',
     },
     {
         question: 'Tôi có thể đặt xe trước không?',
@@ -18,6 +22,6 @@ export const faqs: IFAQ[] = [
     },
     {
         question: 'Tôi nên làm gì nếu để quên đồ trên xe?',
-        answer: 'Hãy liên hệ ngay với tổng đài hỗ trợ hoặc ứng dụng. Chúng tôi sẽ hỗ trợ bạn kết nối với tài xế để nhận lại đồ.',
+        answer: 'Hãy liên hệ ngay với tổng đài hỗ trợ 0835.340.340. Chúng tôi sẽ hỗ trợ bạn kết nối với tài xế để nhận lại đồ.',
     }
 ];

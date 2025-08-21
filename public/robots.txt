@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://taxidieneasup.vn/sitemap.xml
+
+# Taxi Điện Easup - Dịch vụ taxi điện tại Ea Súp, Đắk Lắk
+# Địa chỉ: 3V45+26J, Cư M'Lan, Ea Súp, Đắk Lắk, Việt Nam
+# Hotline: 0835.340.340

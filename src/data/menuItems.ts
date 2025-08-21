@@ -3,14 +3,18 @@ import { IMenuItem } from "@/types";
 export const menuItems: IMenuItem[] = [
     {
         text: "DỊCH VỤ",
-        url: "#features"
+        url: "/dich-vu"
     },
     {
-        text: "TIN TỨC",
-        url: "#pricing"
+        text: "BẢNG GIÁ",
+        url: "/bang-gia"
     },
     {
         text: "VỀ CHÚNG TÔI",
-        url: "#testimonials"
+        url: "/ve-chung-toi"
+    },
+    {
+        text: "LIÊN HỆ",
+        url: "/lien-he"
     }
 ];

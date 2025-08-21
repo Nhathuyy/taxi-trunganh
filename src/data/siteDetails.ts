@@ -1,9 +1,9 @@
 export const siteDetails = {
-    siteName: 'Trung Anh',
-    siteUrl: 'taxidientrunganh.vn',
+    siteName: 'Taxi Điện Easup',
+    siteUrl: 'taxidieneasup.vn',
     metadata: {
-        title: 'Taxi điện Trung Anh – Dịch vụ đặt xe an toàn, nhanh chóng tại Đắk Lắk',
-        description: 'Taxi điện Trung Anh mang đến trải nghiệm đi lại an toàn, tiện lợi và thân thiện môi trường tại Đắk Lắk. Đặt xe nhanh chóng, tiết kiệm chi phí và luôn đúng giờ.'
+        title: 'Taxi Điện Easup – Dịch vụ đặt xe an toàn, nhanh chóng tại Ea Súp, Đắk Lắk',
+        description: 'Taxi Điện Easup mang đến trải nghiệm đi lại an toàn, tiện lợi và thân thiện môi trường tại Ea Súp, Đắk Lắk. Đặt xe nhanh chóng, tiết kiệm chi phí và luôn đúng giờ. Địa chỉ: 3V45+26J, Cư M\'Lan, Ea Súp, Đắk Lắk, Việt Nam.'
         
     },
     language: 'vi',

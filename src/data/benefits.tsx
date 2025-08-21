@@ -5,8 +5,8 @@ import { IBenefit } from "@/types"
 
 export const benefits: IBenefit[] = [
     {
-        title: "Taxi Ea Súp – Tiện Lợi & Giá Tốt",
-        description: "Chúng tôi tự hào phục vụ hành khách tại khu vực Ea Súp với dịch vụ taxi uy tín, an toàn và giá cả hợp lý. Đặt xe nhanh chóng, đón tận nơi – chỉ một cuộc gọi là có ngay xe!",
+        title: "Taxi Điện Easup Trung Anh – Tiện Lợi & Giá Tốt",
+        description: "Chúng tôi tự hào phục vụ hành khách tại khu vực Ea Súp với dịch vụ taxi điện uy tín, an toàn và giá cả hợp lý. Đặt xe nhanh chóng, đón tận nơi – chỉ một cuộc gọi là có ngay xe!",
         bullets: [
             {
                 title: "Phục Vụ Khu Vực Ea Súp",
@@ -38,8 +38,8 @@ export const benefits: IBenefit[] = [
         imageSrc: "/images/friendly-trunganh-taxi.jpg"
     },
     {
-        title: "Taxi Điện Ea Súp – Trung Anh",
-        description: "Dịch vụ taxi điện an toàn, tiện lợi, phục vụ khu vực Ea Súp và các tuyến lân cận với giá cả công khai, minh bạch.",
+        title: "Taxi Điện Easup – Trung Anh",
+        description: "Dịch vụ taxi điện an toàn, tiện lợi, phục vụ khu vực Ea Súp và các tuyến lân cận với giá cả công khai, minh bạch. Địa chỉ: 3V45+26J, Cư M'Lan, Ea Súp, Đắk Lắk, Việt Nam.",
         bullets: [
           {
             title: "Giá Cả Hợp Lý",
@@ -62,8 +62,8 @@ export const benefits: IBenefit[] = [
             icon: <FiSmile size={26} />
           },
           {
-            title: "Taxi Easup giá rẻ, chất lượng cao",
-            description: "Giá công khai, chỉ tính thêm phụ phí chờ 50k/tiếng khi có yêu cầu.",
+            title: "Taxi Điện Easup giá rẻ, chất lượng cao",
+            description: "Giá công khai, chỉ tính thêm phụ phí chờ 50k/tiếng khi có yêu cầu. Địa chỉ: 3V45+26J, Cư M'Lan, Ea Súp, Đắk Lắk.",
             icon: <FiClock size={26} />
           }
         ],

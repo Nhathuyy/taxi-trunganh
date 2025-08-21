@@ -8,6 +8,9 @@ import Container from "@/components/Container";
 import Section from "@/components/Section";
 import Stats from "@/components/Stats";
 import CTA from "@/components/CTA";
+import AddressInfo from "@/components/AddressInfo";
+import InternalLinks from "@/components/InternalLinks";
+import RoutePricing from "@/components/RoutePricing";
 import dynamic from "next/dynamic";
 
 // Dynamic import + Lazy-load (bật suspense nếu muốn)
@@ -49,14 +52,17 @@ const HomePage: React.FC = () => {
         {/* Bảng giá */}
         <Section
           id="testimonials"
-          title="Bảng giá Taxi EaSup - Đắk Lắk"
-          description="Loại xe taxi 4 chổ - 7 chổ"
+          title="Bảng giá Taxi Điện Easup - Đắk Lắk"
+          description="Loại xe taxi điện 4 chổ - 7 chổ"
         >
           <Testimonials />
         </Section>
 
+        <AddressInfo />
+        <RoutePricing />
         <FAQ />
         <Stats />
+        <InternalLinks />
         <CTA />
       </Container>
     </>

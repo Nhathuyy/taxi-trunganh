@@ -23,7 +23,7 @@ const Header: React.FC = () => {
                     <Link href="/" className="flex items-center gap-2">
                         <img src="/images/Trung_Anh_Tax.png" alt="Logo" className="w-12 h-12" /> 
                         <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
-                          TAXI TRUNG ANH
+                          TAXI ĐIỆN EA SÚP
                         </span>
                     </Link>
 
@@ -38,7 +38,7 @@ const Header: React.FC = () => {
                         ))}
                         <li>
                             <Link href="#cta" className="text-white bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors">
-                                BÁO GIÁ
+                                GỌI NGAY
                             </Link>
                         </li>
                     </ul>
