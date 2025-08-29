@@ -30,6 +30,7 @@ export const metadata: Metadata = {
         alt: siteDetails.siteName,
       },
     ],
+    siteName: "TAXI ĐIỆN EASUP", // 👈 thêm dòng này
   },
   twitter: {
     card: 'summary_large_image',
@@ -41,6 +42,9 @@ export const metadata: Metadata = {
     canonical: `https://${siteDetails.siteUrl}`,
   },
 };
+
+};
+
 
 export default function RootLayout({
   children,
